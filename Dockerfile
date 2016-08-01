@@ -23,12 +23,8 @@ RUN apt-get update && \
     apt-cache search maven && \
     apt-get install -y maven && \
     apt-get clean
-<<<<<<< HEAD
 #Configuramos el entorno
-=======
 
-
->>>>>>> a8ec2817c6486057f450ac511ae364b2431ad0ad
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle/
 RUN wget http://www.scala-lang.org/files/archive/scala-2.10.4.tgz
 RUN mkdir /usr/local/src/scala
