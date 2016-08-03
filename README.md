@@ -3,7 +3,9 @@ Dockerizing Apache-Flink
 **Docker**  Apache Flink.
 <br><br>
 Instala todos los componentes necesarios para ejecutar Apache Flink
-* flink 0.10.2
+* Flink 0.10.2
+* Scala 2.10.4
+* Java 8
 
 #### Screenshot
 ![Screenshot software](https://flink.apache.org/img/navbar-brand-logo.jpg "screenshot software")
